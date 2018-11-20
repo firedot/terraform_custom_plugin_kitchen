@@ -1,0 +1,18 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: ubuntu
+
+verifier:
+  name: terraform
+  reporter: doc
+  systems:
+    - name: default
+
+suites:
+  - name: default
